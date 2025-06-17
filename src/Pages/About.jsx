@@ -55,7 +55,7 @@ const ProfileImage = memo(() => (
             src="/tillen1.jpg"
             alt="Profile"
             className="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 group-hover:rotate-2"
-          // loading="lazy"
+            loading="lazy"
           />
 
           {/* Advanced hover effects - desktop only */}
@@ -221,7 +221,7 @@ const AboutPage = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-4 lg:gap-4 lg:px-0 w-full">
-              <a href="/Tillen Otuoma Resume.pdf" className="w-full lg:w-auto">
+              {/* <a href="/001resume.pdf" className="w-full lg:w-auto" target="_blank" rel="noopener noreferrer">
                 <button
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -229,7 +229,7 @@ const AboutPage = () => {
                 >
                   <FileText className="w-4 h-4 sm:w-5 sm:h-5" /> Download CV
                 </button>
-              </a>
+              </a> */}
               <a href="#Portofolio" className="w-full lg:w-auto">
                 <button
                   data-aos="fade-up"

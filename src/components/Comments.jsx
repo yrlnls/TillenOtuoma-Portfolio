@@ -181,7 +181,7 @@ const CommentForm = memo(({ onSubmit, isSubmitting, error }) => {
     );
 });
 
-const Komentar = () => {
+const Commentor = () => {
     const [comments, setComments] = useState([]);
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [error, setError] = useState('');
@@ -316,4 +316,4 @@ const Komentar = () => {
     );
 };
 
-export default Komentar;
+export default Commentor;

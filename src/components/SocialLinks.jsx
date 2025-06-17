@@ -12,7 +12,7 @@ const socialLinks = [
     displayName: "Let's Connect",
     subText: "on LinkedIn",
     icon: Linkedin,
-    url: "https://www.linkedin.com/in/masab-qurban/",
+    // url: "https://www.linkedin.com/in/tillen-otuoma/",
     color: "#0a66c2",
     gradient: "from-[#0a66c2] to-[#377abd]",
     isPrimary: true
