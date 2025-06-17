@@ -177,38 +177,22 @@ export default function FullWidthTabs() {
   };
   projects = [
 
-    // {
-    //   "id": "tool-matrix",
-    //   "Features": [
-    //     "AI-powered handwriting recognition using a Python-based model integrated with the Gemini API, achieving 95% accuracy in solving handwritten math problems.",
-    //     "A visually appealing and dynamic web platform designed for seamless interaction and an optimal user experience.",
-    //     "Comprehensive calculators for various domains, catering to a wide range of user needs."
-    //   ],
-    //   "Link": "https://tool-matrix.vercel.app/",
-    //   "Img": "/tool matrix dark.png",
-    //   "TechStack": [
-    //     "Python", "React JS", "Tailwind CSS", "Gemini API", "Vite", "GitHub", "Vercel"
-    //   ],
-    //   "Github": "https://github.com/yrlnls",
-    //   "Description": "A web-based platform developed in React JS, Node JS, Python and Tailwind CSS featuring calculators for various domains. Integrated a Python-powered AI model utilizing Gemini API to solve handwritten math problems. Achieved 95% accuracy in solving math queries through the AI-powered handwriting recognition feature.",
-    //   "Title": "Tool Matrix (FYP)"
-    // },
-    // {
-    //   "id": "snowdreamstudios",
-    //   "Features": [
-    //     "A Swiss-based digital studio offering a visually immersive experience with fluid animations, interactive elements, and a modern design powered by Framer Motion and Tailwind CSS.",
-    //     "Showcases a comprehensive portfolio, including case studies, projects, services, and team insights, all presented in a structured and visually appealing way.",
-    //     "Built with Next.js for fast load times, optimized performance, and seamless navigation, ensuring a top-tier user experience across devices."
-    //   ],
-    //   "Link": "https://snowdreamstudios.com/",
-    //   "Img": "/snowdreamstudios.ch_en_.png",
-    //   "TechStack": [
-    //     "Next.js", "Tailwind CSS", "JavaScript", "Framer Motion", "Figma", "GitHub", "Vercel"
-    //   ],
-    //   "Github": "https://github.com/yrlnls",
-    //   "Description": "Snow Dream Studios is a Swiss-based digital studio blending cutting-edge tech with stunning design. Built with Next.js, Tailwind CSS, Framer Motion, and JavaScript, and hosted on Vercel, it delivers a visually rich, interactive experience. The platform features smooth animations, a modern design, and a comprehensive portfolio, including case studies, services, career opportunities, and team insights. With intuitive design and optimized performance, it sets a new standard for corporate websites.",
-    //   "Title": "Snow Dream Studios"
-    // },
+    {
+      "id": "Eventify",
+      "Features": [
+       "Comprehensive Event Creation & Customization-An intuitive system that supports customizable event pages, dynamic scheduling, multi-day events, and diverse event formats to suit various organizer needs.",
+       "Seamless Registration, Ticketing & Secure Payments-An integrated attendee registration and ticketing platform with support for multiple ticket types, discounts, real-time availability tracking, and secure payment processing via Stripe and PayPal, including automated invoice generation.",
+       "Engagement & Communication Suite-Built-in communication tools such as automated email campaigns, event reminders, in-app notifications, and interactive attendee features like live polls, Q&A sessions, and personalized agendas to maximize attendee participation and engagement."
+      ],
+      "Link": "https://event-project-rgv7.vercel.app/",
+      "Img": "/Eventify.png",
+      "TechStack": [
+        "Python", "React JS", "Tailwind CSS", "Flask", "Vite", "GitHub", "Vercel", "SQLAlchemy", "Werkzeug", "SQLite", "PostgreSQL", "Flask-JWT"
+      ],
+      "Github": "https://github.com/Ythaka1/Event--Project",
+      "Description": "Eventify is a comprehensive event management platform that bridges the gap between event organizers and attendees. With an intuitive interface and powerful backend, Eventify simplifies the entire event lifecycle from creation to attendance tracking. Whether you're planning a corporate retreat, a tech conference, or a wedding celebration, Eventify provides the tools you need to make your event a success.",
+      "Title": "Eventify"
+    },
     // {
     //   "id": "estorefoam",
     //   "Features": [
