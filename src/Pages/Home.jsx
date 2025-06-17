@@ -159,6 +159,14 @@ const Home = () => {
 
   return (
     <div className="px-0 md:px-5 min-h-screen bg-[#030014] overflow-hidden" id="Home">
+      {/* Logo Top Left */}
+      {/* <div className="absolute top-6 left-6 z-20">
+        <img
+          src="/logo2.jpg"
+          alt="Logo"
+          className="w-14 h-14 object-contain rounded-full shadow-lg border-2 border-white/20 bg-white/10"
+        />
+      </div> */}
       <div className={`relative z-10 transition-all duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}>
         <div className="container mx-auto px-[5%] sm:px-6 lg:px-[0%] min-h-screen">
           <div className="flex flex-col lg:flex-row items-center justify-center h-screen md:justify-between gap-0 sm:gap-12 lg:gap-20">
