@@ -80,7 +80,8 @@ function TabPanel({ children, value, index, ...other }) {
     >
       {value === index && (
         <Box sx={{ p: { xs: 1, sm: 3 } }}>
-          <Typography>{children}</Typography>
+          {/* Change Typography to render as a div to avoid <div>/<h3>/<h6>/<p> inside <p> */}
+          <Typography component="div">{children}</Typography>
         </Box>
       )}
     </div>
@@ -459,10 +460,10 @@ export default function FullWidthTabs() {
             Portfolio Showcase
           </span>
         </h2>
-        <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2">
+        <div className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base mt-2">
           Explore my journey through projects, qualifications, and technical expertise.
           Each section represents a milestone in my continuous learning path.
-        </p>
+        </div>
       </div>
 
       <Box sx={{ width: "100%" }}>

@@ -3,7 +3,6 @@ import {
   Linkedin,
   Github,
   Instagram,
-  Facebook,
   ExternalLink
 } from "lucide-react";
 
@@ -28,15 +27,6 @@ const socialLinks = [
     gradient: "from-[#333] to-[#24292e]"
   },
   {
-    name: "Facebook",
-    displayName: "Facebook",
-    subText: "tillenotuoma",
-    icon: Facebook,
-    url: "https://facebook.com/tillenotuoma",
-    color: "#0866ff",
-    gradient: "from-[#0866ff] to-[#428aff]"
-  },
-  {
     name: "Instagram",
     displayName: "Instagram",
     subText: "tillen_otuoma",
@@ -50,7 +40,7 @@ const socialLinks = [
 const SocialLinks = () => {
   const linkedIn = socialLinks.find(link => link.isPrimary);
   const otherLinks = socialLinks.filter(link => !link.isPrimary);
-  const [instagram, facebook, github] = otherLinks;
+  const [instagram, github] = otherLinks;
 
   return (
     <div className="w-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl p-6 py-8 backdrop-blur-xl">
@@ -211,9 +201,9 @@ const SocialLinks = () => {
           ))}
         </div>
 
-        {/* Third Row - GitHub & Facebook */}
+        {/* Third Row - GitHub */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {[facebook, github].map((link) => (
+          {[github].map((link) => (
             <a
               key={link.name}
               href={link.url}
