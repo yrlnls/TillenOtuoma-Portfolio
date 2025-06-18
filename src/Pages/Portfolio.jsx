@@ -193,22 +193,23 @@ export default function FullWidthTabs() {
       "Description": "Eventify is a comprehensive event management platform that bridges the gap between event organizers and attendees. With an intuitive interface and powerful backend, Eventify simplifies the entire event lifecycle from creation to attendance tracking. Whether you're planning a corporate retreat, a tech conference, or a wedding celebration, Eventify provides the tools you need to make your event a success.",
       "Title": "Eventify"
     },
-    // {
-    //   "id": "estorefoam",
-    //   "Features": [
-    //     "Users can input foam measurements to instantly generate a visual representation of the foam’s size and shape, enhancing the shopping experience.",
-    //     "Offers a wide variety of foam materials, including polyurethane and polyethylene, cut to any shape or size, catering to diverse industries.",
-    //     "Built with PHP Laravel and Tailwind CSS, the website features a sleek, user-friendly design with seamless navigation for easy browsing and purchasing."
-    //   ],
-    //   "Link": "https://estorefoam.co.uk/",
-    //   "Img": "/estorefoam.png",
-    //   "TechStack": [
-    //     "Laravel", "Tailwind CSS", "JavaScript", "Figma", "GitHub"
-    //   ],
-    //   "Github": "https://github.com/masabqurban",
-    //   "Description": "Estorefoam, the UK’s largest online foam supplier since 2000, has a revamped e-commerce platform built with PHP Laravel and Tailwind CSS. The website offers custom foam visualization, allowing users to input measurements and see a visual representation of their foam. With over 25 years of expertise, it provides high-quality foam materials, including polyurethane and polyethylene, cut to any shape or size. Catering to upholsterers, crafters, and more, the platform combines modern design, functionality, and ease of use for an exceptional shopping experience.",
-    //   "Title": "Estorefoam"
-    // },
+    {
+      "id": "Filmflicks",
+      "Features": [
+        "Browse Movies: View a list of movies fetched from a local JSON file.",
+        "Search Functionality: Search for movies and view details, including trailers.",
+        "Watchlist Management: Add and remove movies from your personal watchlist.",
+        "Responsive Design: Optimized for both desktop and mobile devices."
+      ],
+      "Link": "",
+      "Img": "/Filmflicks.png",
+      "TechStack": [
+        "React","Framer Motion","CSS3", "Figma", "GitHub"
+      ],
+      "Github": "https://github.com/MarkKibet/Swift-Scripters",
+      "Description": "FilmFlicks is a movie streaming application that allows users to browse, search, and manage their favorite movies. With a user-friendly interface, FilmFlicks provides a seamless experience for movie enthusiasts to create watchlists and enjoy their favorite films on demand.",
+      "Title": "Filmflicks"
+    },
     // {
     //   "id": "zoa-vet",
     //   "Features": [
