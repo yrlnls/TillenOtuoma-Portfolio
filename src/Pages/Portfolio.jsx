@@ -224,25 +224,28 @@ export default function FullWidthTabs() {
         "React", "Font Awesome","CSS3", "Framer Motion", "GitHub"
       ],
       "Github": "https://github.com/yrlnls/capital_fiber_ltd",  
-      "Description": "ZOA is a comprehensive Veterinary Clinic Management System designed to streamline operations for clinics, veterinarians, and pet owners. Developed with Laravel, it features role-based access (admins, doctors, clients), patient record management, appointment scheduling, and an integrated billing system. The dashboard provides real-time analytics, automated reminders, and prescription tracking, replacing manual processes with a secure, scalable digital solution. Ideal for modern veterinary practices seeking efficiency and improved patient care.",
+      "Description": "Capital Fibre is a digital platform that provides a comprehensive overview of the company's services, including fibre internet solutions, business connectivity, and customer support. The website features a modern design with responsive layouts, ensuring a seamless user experience across all devices. Users can easily navigate through the site to find information about Capital Fibre's offerings, contact details, and support resources. Clients can also easily contact via whatsapp. The platform is designed to enhance customer engagement and streamline access to Capital Fibre's services, making it a valuable resource for both existing and potential clients.",
       "Title": "Capital-Fibre Limited"
     },
-    // {
-    //   "id": "png-to-text",
-    //   "Features": [
-    //     "A versatile web platform designed to simplify file processing with tools for image conversion, compression, and text extraction.",
-    //     "Enhanced file handling through integrated features that streamline image optimization and text extraction tasks.",
-    //     "Efficient processing with advanced tools that improve workflow and save time in handling various file types."
-    //   ],
-    //   "Link": "https://pngtotext.com/",
-    //   "Img": "/pngtotext dark.png",
-    //   "TechStack": [
-    //     "Laravel", "JavaScript", "Tailwind CSS", "Figma", "MySQL", "Tesseract OCR", "GitHub"
-    //   ],
-    //   "Github": "https://github.com/masabqurban",
-    //   "Description": "Developed a feature-rich web-based platform using PHP, Laravel and Tailwind CSS. Integrated tools for image conversion, compression, and text extraction to enhance file processing efficiency.",
-    //   "Title": "PNG to TEXT"
-    // },
+    {
+      "id": "F-lendly",
+      "Features": [
+        "🔐 Secure Authentication: JWT-based authentication with role-based access control",
+        "📱 Responsive Design: Mobile-first approach with professional fintech UI",
+        "⚡ Real-time Updates: Dynamic loan status tracking and management",
+        "🎨 Modern UI/UX: Professional color scheme with blues and purples",
+        "🔒 Bank-Grade Security: Encrypted data transmission and secure storage",
+        "📊 Admin Dashboard: Comprehensive loan and user management interface"
+      ],
+      "Link": "https://f-lendly.vercel.app/",
+      "Img": "/F_lendly.png",
+      "TechStack": [
+        "HTML", "JavaScript", "CSS", "Figma", "Node.js", "GitHub"
+      ],
+      "Github": "https://github.com/yrlnls/F_LENDLY",
+      "Description": "F-lendly is a modern, professional loan application management system built with cutting-edge web technologies. It provides a seamless experience for both loan applicants and administrators with a focus on security, usability, and professional fintech aesthetics.",
+      "Title": "F-Lendly"
+    },
     // {
     //   "id": "sds-erp",
     //   "Features": [
