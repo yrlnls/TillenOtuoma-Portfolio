@@ -210,23 +210,23 @@ export default function FullWidthTabs() {
       "Description": "FilmFlicks is a movie streaming application that allows users to browse, search, and manage their favorite movies. With a user-friendly interface, FilmFlicks provides a seamless experience for movie enthusiasts to create watchlists and enjoy their favorite films on demand.",
       "Title": "Filmflicks"
     },
-    // {
-    //   "id": "zoa-vet",
-    //   "Features": [
-    //     "Role-based dashboard (Admin, Veterinarian, Client) for managing patients, appointments, medical records, and billing.",
-    //     "Integrated accounts system with secure authentication, invoicing, and prescription tracking for seamless clinic operations.",
-    //     "Real-time data visualization (appointments, revenue) and automated reminders to improve workflow efficiency.",
-    //     "Built with Laravel for robust backend logic and a responsive UI for desktop/mobile clinic staff."
-    //   ],
-    //   "Link": "https://zoa.ai/",
-    //   "Img": "/zoa.ai_.png",
-    //   "TechStack": [
-    //     "Laravel", "MySQL", "JavaScript", "Tailwind CSS", "GitHub"
-    //   ],
-    //   "Github": "https://github.com/masabqurban",  // Update if private
-    //   "Description": "ZOA is a comprehensive Veterinary Clinic Management System designed to streamline operations for clinics, veterinarians, and pet owners. Developed with Laravel, it features role-based access (admins, doctors, clients), patient record management, appointment scheduling, and an integrated billing system. The dashboard provides real-time analytics, automated reminders, and prescription tracking, replacing manual processes with a secure, scalable digital solution. Ideal for modern veterinary practices seeking efficiency and improved patient care.",
-    //   "Title": "ZOA – Veterinary Clinic System"
-    // },
+    {
+      "id": "CapitalFibre",
+      "Features": [
+    "Responsive Design: Optimized for all devices (mobile, tablet, desktop)",
+    "User-Friendly Navigation: Intuitive layout for easy access to services and information",
+    "Modern UI/UX: Clean, professional design with smooth animations",
+    "Mobile-First: Optimized mobile experience with touch-friendly navigation"
+      ],
+      "Link": "https://capitalfiberlimited.netlify.app/",
+      "Img": "/Capitalfibre.png",
+      "TechStack": [
+        "React", "Font Awesome","CSS3", "Framer Motion", "GitHub"
+      ],
+      "Github": "https://github.com/yrlnls/capital_fiber_ltd",  
+      "Description": "ZOA is a comprehensive Veterinary Clinic Management System designed to streamline operations for clinics, veterinarians, and pet owners. Developed with Laravel, it features role-based access (admins, doctors, clients), patient record management, appointment scheduling, and an integrated billing system. The dashboard provides real-time analytics, automated reminders, and prescription tracking, replacing manual processes with a secure, scalable digital solution. Ideal for modern veterinary practices seeking efficiency and improved patient care.",
+      "Title": "Capital-Fibre Limited"
+    },
     // {
     //   "id": "png-to-text",
     //   "Features": [
