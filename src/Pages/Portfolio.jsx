@@ -115,9 +115,9 @@ export const techStacks = [
   { icon: "vercel.svg", language: "Vercel" },
   { icon: "MUI.svg", language: "Material UI" },
   { icon: "Motion.svg", language: "Motion" },
-  { icon: "Python.svg", language: "Python" },
+  { icon: "python.jpeg", language: "Python" },
   { icon: "Git.png", language: "Git" },
-  { icon: "Flask.svg", language: "Flask" },
+  { icon: "flask.png", language: "Flask" },
   { icon: "Figma.svg", language: "Figma" },
 ];
 
